@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color:black;
+}
+.main {
+  background-image: url(backgroundimage.jpg);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:max(1220px,100vw);
+  height:70vh;
+  position:relative;
+}
+.box{
+  height:70vh;
+  width:100%;
+  opacity:0.69;
+  background-color:black;
+  top:0;
+  position:absolute;
+}
+nav{
+  max-width:80vw;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:62px;
+}
+nav img{
+  width:114px;
+  position:relative;
+  z-index:11;
+}
+nav button{
+  position:relative;
+  z-index:11;
+  
+}
+.hero{
+  font-family:"poppines";
+  font-weight:bolder; 
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:white;
+  position:relative;
+  gap:23px;
+  padding:30px;
+  
+}
+.hero> :first-child{
+  font-weight:bolder;
+  font-size:48px;
+  text-align:center;
+}
+.hero> :nth-child(2){
+  font-weight:400;
+  font-size:24px;
+  text-align:center;
+}
+.hero> :nth(3){
+  font-weight:400;
+  font-size:20px;
+  text-align:center;
+}
+.separation{
+  height:7px;
+  background-color:grey;
+}
+.btn{
+  padding: 3px 8px ;
+  font-weight: 400;
+  color:white;
+  background-color:rgba(248,243,243,0.342);
+  border-radius:4px;
+  border: 2px solid white;
+  cursor:pointer;
+}
+.btn-red {  
+  background-color:red;
+  color:white;
+  padding:3px 24px ;
+  font-size: 20px;
+  border-radius:4px;
+  font-weight:400; 
+}
+.hero-buttons {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:16px;
+}
+.main input{
+  padding:3px 24px;
+  color:white;
+  font-size: 20px;
+  border-radius:4px;
+  background-color: rgba(23,23,23,0.2);
+  border:1px solid white;
+}
+.btn-red-sn{
+  background-color:red;
+  color:white;
+  padding:3px 24px;
+  font-size: 20px;
+  border-radius:4px;
+  font-weight:400;
+}
+.first{
+  display:flex;
+  align-items:center;
+  max-width:70vw;
+  margin:auto;
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
+.secimg{
+  position:relative;
+}
+.secimg img{
+width: 305px;
+  position:relative;
+  z-index:10;
+}
+.secimg video{
+position:absolute;
+top:51px;
+right:0;
+width:305px;
+}
+section.first>div{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  padding:34px 0;
+}
+.first> div :first-child{
+  font-size:48px;
+  font-weight:bolder;
+}
+.first> div :nth-child(2){
+  font-size:24px;
+}
+.faq h2{
+  text-align:center;
+  font-size: 48px;
+}
+.faq{
+  background-color: black;
+  color:white;
+  padding:34px;
+}
+   faq-ren:hover{
+ background-color:#414141; 
+ color:white;
+}
+.faq-ren svg{
+  max-width:3vw;
+  filter:invert(1);
+}
+.faq-ren{
+  color:white;
+  transition:all 1s ease-out;
+  font-size:24px; 
+  display:flex;
+  justify-content:space-around;
+  background-color:#2d2d2d;
+  padding:24px;
+  max-width:40vw;
+  margin: 34px auto;
+  cursor:pointer;
+}
+@media screen and (max-width :1300px) {
+  nav{
+    max-width:90vw;
+  }
+  .first {
+    flex-wrap: wrap;
+  }
+  .secimg img{
+    width:305px;
+  }
+  .secimg video{
+    width:305px;
+  }
+    .hero> :first-child{
+  font-size:32px;
+}
+.hero> :nth-child(2){
+  font-size:18px;
+}
+.hero> :nth(3){
+  font-size:18px;
+}
+.hero-buttons{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+.faq{
+  text-align:center;
+  font-size:32px;
+}
+  }
+fotter{
+  margin-top:15px;
+}
+.foot-panel1{
+  color:white;
+  height:50px;
+  display:flex;
+  align-items:center; 
+ font-size:0.85rem;
+}
+.foot-panel2{
+  background-color:black; 
+  color:white;
+  height:200px;
+  display:flex;
+  justify-content:space-evenly;
+}
+ul{
+  margin-top:10px; 
+}
+ul a{
+  display:block;
+  font-style:0.85rem;
+  margin:10px;
+  color:#dddddd;
+}
+.text{
+  color :white ;
+  margin-top :16px ;
+  }
